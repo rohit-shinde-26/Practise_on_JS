@@ -1,4 +1,4 @@
-// This repo for daily practise on Javascript
-console.log("Hello");
-
-// All starts from Day 1
+// Start from topic 1
+var a = 17;
+console.log(a)
+console.log(typeof a)
