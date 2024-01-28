@@ -35,3 +35,6 @@ console.log(
 // There are 2 types of non-primitive datatypes
 // 1. Object
 // 2. Array
+
+console.log(typeof NaN); 
+console.log(typeof 55551365115464n)
