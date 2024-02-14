@@ -23,3 +23,5 @@ for (let i = 0; i <= 10; i++) {
   total = total + i;
 }
 console.log(`Here is the total of all number ${total}`);
+
+// practise is in next repo with all loops
