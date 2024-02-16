@@ -11,6 +11,7 @@ if (temp > 50) {
 }
 
 // cases
+// use html file
 let day = +prompt("Enter the day");
 switch (day) {
   case 1:
