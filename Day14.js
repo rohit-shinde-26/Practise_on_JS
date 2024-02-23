@@ -22,3 +22,5 @@ const TATA = {
 
 const total = { ...obj, ...TATA, mahindra: "thar" };
 console.log(total);
+const newObj = { ..."abcdefghijklmnopqrstuvwxyz" };
+console.log(newObj);
