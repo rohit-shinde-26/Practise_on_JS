@@ -28,3 +28,6 @@ const showRoom = [
   { id: 1, mName: "Vivo x90", price: 80000 },
 ];
 console.log(showRoom);
+for (let piece of showRoom) {
+  console.log(piece.mName.toUpperCase());
+}
