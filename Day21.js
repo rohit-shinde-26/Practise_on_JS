@@ -36,3 +36,27 @@
 // for (let data in showRoom) {
 //   console.log(`${data} : ${showRoom[data]}`);
 // }
+// let myObj = {};
+// let key1 = "name";
+// let key2 = "age";
+// let val1 = "Rohit";
+// let val2 = 21;
+// myObj[key1] = val1;
+// myObj
+// console.log(myObj);
+
+const carsData = {
+  car1: "Mustang",
+  car2: "Civic",
+  car3: "Verna Turbo",
+  car4: "City",
+};
+const { car1, ...other } = carsData;
+console.log(other);
+
+const showRoom = [
+  { id: 1, name: "Mustang", color: "Red" },
+  { id: 2, name: "Civic", color: "Voilet" },
+  { id: 3, name: "Supra", color: "White" },
+  { id: 4, name: "Verna", color: "Black" },
+];
