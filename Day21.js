@@ -122,12 +122,64 @@ const myObj = {
 // console.log(ans);
 
 // callback
-const myFunc = (name) => {
-  console.log("this is function");
-  console.log(`my name is ${name}`);
-};
-const anotherFunc = (callback) => {
-  console.log("This is another function");
-  callback("Rohit");
-};
-anotherFunc(myFunc);
+// const myFunc = (name) => {
+//   console.log("this is function");
+//   console.log(`my name is ${name}`);
+// };
+// const anotherFunc = (callback) => {
+//   console.log("This is another function");
+//   callback("Rohit");
+// };
+// anotherFunc(myFunc);
+
+// imp array methods
+const myArr = [2, 4, 56, 7, 3, 2, 46];
+// myArr.forEach((Number, index) => {
+//   console.log(`index id ${index} and number is ${Number}`);
+// });
+
+// const ans = myArr.map((num, index) => {
+//   return num * num;
+// });
+// console.log(ans);
+
+// const ans = myArr.filter((number) => {
+//   return number % 2 === 0;
+// });
+// console.log(ans);
+
+// const ans = myArr.reduce((accumulator,total)=>{
+//   return accumulator + total
+// })
+// console.log(ans)
+
+// const ans = myArr.sort((a, b) => {
+//   return a - b;
+// });
+// console.log(ans);
+
+const users = [
+  { firstName: "Rohit", age: 23 },
+  { firstName: "mohit", age: 21 },
+  { firstName: "nitish", age: 22 },
+  { firstName: "garima", age: 20 },
+];
+
+// const ans = users.forEach((data, index) => {
+//   console.log(`index of ${index} is ${data.firstName}`);
+// });
+
+// const ans = users.map((no) => {
+//   return no.age * 2;
+// });
+// console.log(ans);
+
+// const ans = users.reduce((accumulator, friend) => {
+//   return accumulator + friend.age;
+// },10);
+// console.log(ans);
+
+const ans = users.sort((a, b) => {
+  return b.firstName - a.firstName;
+});
+console.log(ans);
