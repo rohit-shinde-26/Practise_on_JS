@@ -111,23 +111,23 @@ const myObj = {
 // myFunc(myObj);
 
 // rest
-function hello(...numbers) {
-  let total = 0;
-  for (let number of numbers) {
-    total = total + number;
-  }
-  return total;
-}
-const ans = hello(3, 4, 5, 6, 7, 8, 9);
-console.log(ans);
-
-// function addAll(...numbers){
+// function hello(...numbers) {
 //   let total = 0;
-//   for(let number of numbers){
-//       total = total + number;
+//   for (let number of numbers) {
+//     total = total + number;
 //   }
 //   return total;
 // }
-
-// const ans = addAll(4,5,4,2,10);
+// const ans = hello(3, 4, 5, 6, 7, 8, 9);
 // console.log(ans);
+
+// callback
+const myFunc = (name) => {
+  console.log("this is function");
+  console.log(`my name is ${name}`);
+};
+const anotherFunc = (callback) => {
+  console.log("This is another function");
+  callback("Rohit");
+};
+anotherFunc(myFunc);
